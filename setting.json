@@ -1,0 +1,13 @@
+{
+    "database" : {
+        "host":"127.0.0.1",
+        "port":"3306",
+        "user":"root",
+        "password":"2wsx1qaz",
+        "database":"test"
+    },
+    "com" : {
+        "com1" : "/dev/ttyUSB0",
+        "com2" : "/dev/ttyUSB1"
+    }
+}
