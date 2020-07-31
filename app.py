@@ -45,7 +45,7 @@ def insert_to_database(cur, conn, data):
         cur.execute(f"INSERT INTO {data['source']} (insert_time, \
             temperature, humidity, co, co2) VALUES ({int(time.time())},{data['temp']},{data['hmd']},{data['co']},{data['co2']})")
         conn.commit()
-        cur.close()
+        conn.close()
     except Exception as error:
         return error
 
