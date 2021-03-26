@@ -8,7 +8,7 @@ mysql-connector-python==8.0.21
 protobuf==3.12.4
 pylint==2.5.3
 pyserial==3.4
-PyYAML==5.3.1
+PyYAML==5.4
 six==1.15.0
 toml==0.10.1
 wrapt==1.12.1
